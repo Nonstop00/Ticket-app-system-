@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+
+
+<DialogPane contentText="If new user try a different user name  " headerText="Account already exists" prefHeight="55.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myticket.ticketapp.SignUpController" />

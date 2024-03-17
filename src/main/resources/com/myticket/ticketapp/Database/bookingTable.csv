@@ -1,0 +1,4 @@
+"ticket_id";"Token";"date_of_purchase";"num_of_tickets";"pickup_points";"dropup_points";"state";"user_id";"time"
+2;"7495084";"2023-08-10";"1";"Old Site";"SRC";"used";1;"07:53"
+3;"6602823";"2023-09-07";"2";"SRC";"Science";"not used";1;"05:54"
+4;"4854162";"2023-08-04";"1";"SRC";"Valco";"used";1;"10:25"

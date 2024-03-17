@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="261.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myticket.ticketapp.TokenMessage">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="121.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/checked.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="4.0" layoutY="178.0" prefHeight="17.0" prefWidth="384.0" text="Ticket Purchase has been successfully made " />
+      <Label fx:id="tokenDisplay" alignment="CENTER" layoutX="1.0" layoutY="212.0" onMouseClicked="#displayToken" prefHeight="17.0" prefWidth="391.0" text="ticket Token: #######" />
+      <Label alignment="CENTER" layoutX="1.0" layoutY="239.0" prefHeight="17.0" prefWidth="391.0" text="click on the ticket token to display">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
